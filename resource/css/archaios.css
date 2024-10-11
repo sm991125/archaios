@@ -1,0 +1,410 @@
+
+
+
+
+*{
+    margin:auto;
+    max-width:1000px;
+    box-sizing:border-box;
+
+
+}
+
+
+.tag{
+    font-family:Arial;
+    display:flex;
+    text-align:right;
+    color:black;
+    flex-direction:row;
+    position:relative;
+    left:0%;
+    top:5%;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    border:100%;
+
+
+
+}
+
+
+.tagtext{
+
+    display:flex;
+    position:relative;
+    left:0%;
+    top:5%;
+    gap:8em;
+
+
+
+}
+
+
+    #logo {
+
+        position:relative;
+        top:0%;
+        left:-60%;
+        height:15em;
+        width:15em;
+    
+
+
+
+
+
+
+}
+
+.main{
+
+    position:relative;
+    top:100px;
+    left: 50px;
+    height: 40em;
+    width: 60em;
+    z-index: auto;
+   
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    
+
+  
+
+}
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+#iron{
+
+    height: 40em;
+    width: 60em;
+
+
+
+
+}
+
+#white{
+
+    height: 40em;
+    width: 60em;
+
+
+
+
+}
+
+#black{
+
+    height:40em;
+    width:60em;
+
+
+
+}
+
+
+
+
+
+
+a[href*="about.html"]{
+    color:black;
+    text-decoration:none;
+
+}
+
+a:hover[href*="about.html"]{
+    color:pink;
+    
+
+}
+
+a[href*="gallery.html"]{
+    color:black;
+    text-decoration:none;
+
+}
+
+a:hover[href*="gallery.html"]{
+    color:pink;
+    
+
+}
+
+a[href*="sessions.html"]{
+    color:black;
+    text-decoration:none;
+
+}
+
+a:hover[href*="sessions.html"]{
+    color:pink;
+    
+
+}
+
+
+
+.aboutus{
+    
+    font-family:Arial;
+    position:relative;
+    top:5em;
+    font-size:20px;
+    display:flex;
+    gap:1em;
+    
+
+  
+  
+
+
+
+}
+
+.aboutus:hover{
+    
+    font-family:Arial;
+    position:relative;
+    top:5em;
+    font-size:20px;
+    display:flex;
+    gap:1em;
+    color:pink;
+    
+
+  
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+#text{
+    font-family:Arial;
+    position:relative;
+    left:90px;
+    top:150px;
+    font-size:25px;
+    line-height:150%;
+
+
+}
+
+.footer{
+
+    display:flex;
+    font-family:Arial;
+    position:relative;
+    left: 50px;
+    bottom: 1em;
+    margin-top:300px;
+    border-top:1px solid black;
+    
+
+
+}
+#insta, #catalog{
+
+    padding:40px;
+
+
+}
+
+.galleryabout{
+    height:40em;
+    width:60em;
+    position:relative;
+    top: 13.5em;
+    left:0%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+
+
+}
+
+#earcup{
+
+    height:45em;
+    width:60em;
+
+
+
+}
+
+
+
+
+#bottlea{
+
+    height:45em;
+    width:60em;
+
+
+
+}
+
+
+.items{
+
+    display:flex;
+    position:relative;
+    top:8em;
+    left:2em;
+
+
+
+
+}
+
+.items2{
+
+    display:flex;
+    position:relative;
+    top:11em;
+    left:2em;
+
+
+
+
+
+
+}
+
+#a {
+
+    height:20em;
+    width:30em;
+}
+
+#b{
+
+    height:20em;
+    width:30em;
+}
+#c{
+
+    height:20em;
+    width:30em;
+}
+
+#d{
+
+    height:20em;
+    width:30em;
+}
+
+.sessiong{
+
+    height:30em;
+    width:40em;
+    position:relative;
+    top:10em;
+    left:1em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+
+
+
+
+}
+
+#sessiontext{
+
+    font-family:Arial;
+    text-align:center;
+    position:relative;
+    top:2em;
+
+
+}
+
+#tile{
+
+    height:30em;
+    width:40em;
+
+
+
+
+
+}
+
+#glue{
+
+    height:30em;
+    width:40em;
+
+
+
+
+
+}
+
+#square1, #square2,#square3, #square4 {
+    height:19.5em;
+    width:29.5em;
+    grid-gap:0.5em;
+    
+
+}
+
+.square{
+
+    display:grid;
+    position:relative;
+    top:150px;
+    left:50px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    height:41em;
+    width:61em;
+
+
+
+
+
+
+}
+
+
